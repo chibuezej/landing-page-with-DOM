@@ -568,6 +568,37 @@ article{
     bottom: -180px;
     left: -150px;
   }
+  .contact-container {
+    position: relative;
+    max-width: 25rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3rem;
+    z-index: 10;
+    color: var(--lightOne);
+  }
+  #contact .contact-info h2{
+    line-height: 2rem;
+    justify-content: center;
+    margin: 0 5%;
+    font-size: 14px;
+  }
+  .footer-container {
+    margin-bottom: 2px;
+  }
+  #footer .social-icon{
+    display: inline-flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20%;
+  
+  }
+  #footer p{
+    color: var(--darkOne);
+    font-size: 1.0rem;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 470px) {
