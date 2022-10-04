@@ -668,6 +668,13 @@ display: flex;
     font-size: 1.0rem;
     text-align: center;
   }
+  #responsive{
+    font-size: 80%;
+    margin-right:30px;
+  }
+  .head1{
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -686,4 +693,5 @@ display: flex;
   .showcase-area .btn {
     font-size: 0.8rem;
   }
+ 
 }
