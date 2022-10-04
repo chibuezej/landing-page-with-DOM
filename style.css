@@ -485,12 +485,53 @@ article{
   margin: 10px 120px;
 
 }
-.edu-div{
+#edu-div{
   position: relative;
   margin: 10px 100px;
 }
-  
+.date{
+color: var(--hoverColor);
+}
+#percent2{
+display: flex;
+  width: 200px;
+  background: red;
+  height: 5vh;
+  padding: 5px;
+  border-radius: 5px;
 
+}
+  
+.percent1{
+  display: none;
+  width: 100%;
+  height: 4vh;
+  background: var(--mainColor);
+  margin: 5px;
+  padding: 8px;
+  color: var(--backgroundColor);
+}
+.percent2{
+  display: none;
+  width: 100%;
+  height: 3vh;
+  background: red;
+  margin: 5px;
+  padding: 2px;
+}
+.percent3{
+  display: none;
+  width: 100%;
+  height: 4vh;
+  background: var(--mainColor);
+  margin: 5px;
+  padding: 8px;
+  color: var(--backgroundColor);
+}
+.test-1{
+  display: flex;
+  position:relative;
+}
 @keyframes appear {
   0% {
     clip-path: circle(30% at -25% -25%);
