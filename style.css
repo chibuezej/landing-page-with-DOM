@@ -60,7 +60,7 @@ a {
 
 .container {
   position: relative;
-  max-width: 81rem;
+  max-width: 75rem;
   width: 100%;
   margin: 0 auto;
   padding: 0 3rem;
@@ -272,6 +272,29 @@ header .container {
   animation: appear 1s 1 both;
 }
 /* about page  */
+#about-me{
+  margin: 60px;
+  font-size: 100%;
+  color: var(--darkOne);
+  cursor: pointer;
+  font-style: italic;
+  
+}
+.middle{
+  margin: 50px;
+  color: var(--hoverColor);
+}
+.big-wrapper1 {
+  position: relative;
+  padding: 0.7rem 0 2rem;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--backgroundColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 article{
   position: relative;
   padding: 1.7rem 0 2rem;
