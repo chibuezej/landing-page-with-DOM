@@ -42,9 +42,13 @@ img {
   width: 100%;
 }
 
-a {
+ a {
   text-decoration: none;
-}
+  color: var(--hoverColor);
+  
+  
+} 
+
 
 .big-wrapper {
   position: relative;
@@ -281,8 +285,30 @@ header .container {
   
 }
 .middle{
-  margin: 50px;
+  text-align: center; 
+  font-size: 23px;
+  text-decoration: none;
   color: var(--hoverColor);
+  position: relative;
+  margin: 100px 0;
+}
+.middle::after{
+  content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+height: 5px;
+width: 100%;
+
+background: currentColor;
+
+transform: scaleX(0);
+transform-origin: right;
+transition: transform 250ms ease-in;
+}
+.middle:hover::after{
+  transform: scaleX(5);
+  transform-origin: left;
 }
 .big-wrapper1 {
   position: relative;
