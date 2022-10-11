@@ -66,7 +66,7 @@ img {
   position: relative;
   max-width: 75rem;
   width: 100%;
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 0 3rem;
   z-index: 10;
 }
@@ -217,6 +217,7 @@ header .container {
 }
 
 .person {
+  margin: 74px 0;
   width: 123%;
   transform: translate(15%, 25px);
 }
@@ -407,6 +408,7 @@ article{
   display: flex;
   max-width: 1200;
   margin: 0 auto;
+  color: var(--lightOne);
 }
 #contact .contact-items{
   width: 400px;
@@ -414,6 +416,7 @@ article{
 #contact .contact-items{
   width: 80%;
   padding: 20px;
+  color: var(--lightOne);
   text-align: center;
   border-radius: 10px;
   padding: 30px;
@@ -422,11 +425,13 @@ article{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0px 0px 18px 0 #0000002c;
+   box-shadow: 0px 0px 18px 0 #0000002c; 
   transition: .3s ease box-shadow;
 }
 #contact .contact-items:hover{
-  box-shadow: 0px 0px 5px 0 #0000002c;
+  /* box-shadow: 0px 0px 5px 0 #0000002c; */
+  background-color: var(--hoverColor);
+  transition: 1ms ease-in-out;
 }
 #contact .icon{
   width: 70px;
@@ -454,10 +459,13 @@ article{
 }
 .contact-container {
   position: relative;
-  max-width: 81rem;
+  max-width: 80rem;
   width: 100%;
-  margin: 0 auto;
-  padding: 0 3rem;
+  justify-content: center;
+  align-self: center;
+  margin: 0px 88px;
+  left: 229px;
+  padding: 0px 17rem;
   z-index: 10;
   color: var(--lightOne);
 }
