@@ -696,6 +696,7 @@ display: flex;
   }
   .contact-container {
     position: relative;
+    left: 0;
     max-width: 25rem;
     width: 100%;
     margin: 0 auto;
@@ -707,7 +708,7 @@ display: flex;
     line-height: 2rem;
     justify-content: center;
     margin: 0 5%;
-    font-size: 14px;
+    font-size: 12px;
   }
   .footer-container {
     margin-bottom: 2px;
