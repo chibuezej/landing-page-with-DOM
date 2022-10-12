@@ -21,6 +21,7 @@
   --lightTwo: #e7e3e3;
 }
 
+
 *,
 *::before,
 *::after {
@@ -708,7 +709,7 @@ display: flex;
     line-height: 2rem;
     justify-content: center;
     margin: 0 5%;
-    font-size: 12px;
+    font-size: 1ch;
   }
   .footer-container {
     margin-bottom: 2px;
