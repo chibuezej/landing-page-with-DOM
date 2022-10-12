@@ -1,4 +1,8 @@
-
+:root{
+    --neutral-900: hsl(207,19%, 9%);
+    --neutral-100: hsl(0, 0%, 100%);
+    --accent-400: hsl(142 90% 61%);
+}
 *,
 *::before,
 *::after{
